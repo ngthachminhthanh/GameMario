@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Map Objects">
+      <UniqueIdentifier>{b9c0e26e-3547-4fd5-ac27-367091eded3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Others">
+      <UniqueIdentifier>{dfdf088a-bad0-47f9-bff5-b3819226f258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Bricks">
+      <UniqueIdentifier>{c8660936-1c0d-47e0-82ae-28d602e044ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Enemies">
+      <UniqueIdentifier>{e3272203-d1ec-49cb-acb6-f08b9a639446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Items">
+      <UniqueIdentifier>{7c5742cf-a11e-42d5-8e46-5416723416bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -25,6 +40,18 @@
   <ItemGroup>
     <ClInclude Include="Define.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animations.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Map Objects\Others</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
