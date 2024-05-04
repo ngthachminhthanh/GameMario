@@ -53,5 +53,8 @@
     <ClInclude Include="GameObject.h">
       <Filter>Map Objects\Others</Filter>
     </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
