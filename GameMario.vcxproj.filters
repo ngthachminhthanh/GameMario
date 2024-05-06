@@ -34,6 +34,9 @@
     <Filter Include="Camera">
       <UniqueIdentifier>{fc33f793-f95d-40c8-9df6-525b6615fba7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Map Objects\Player">
+      <UniqueIdentifier>{69ffb5b3-ba30-48b5-9a7f-0e6cac47701d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -75,6 +78,12 @@
       <Filter>Camera</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Map Objects\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

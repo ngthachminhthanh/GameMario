@@ -141,9 +141,11 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="KeyEventHandler.h" />
+    <ClInclude Include="Portal.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Sprites.h" />
     <ClInclude Include="Textures.h" />
+    <ClInclude Include="Timer.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
